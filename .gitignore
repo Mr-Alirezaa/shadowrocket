@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Editor and IDE state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+
+# Backups and generated archives
+*.bak
+*.backup
+*.orig
+*.rej
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Local-only Shadowrocket variants
+*-local.conf
+*.private.conf
